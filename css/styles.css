@@ -1,0 +1,289 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,h3{
+    font-weight: 800;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* NAV BAR */
+
+.container-fluid{
+    padding: 3% 15% 0 15%;
+    
+}
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+    font-size: 2.5em;
+}
+
+.nav-link{
+    font-size: larger;
+    margin-left: 50px;
+}
+
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 10%;
+}
+
+/* FIRST SECTION */
+
+article  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+
+button img{
+    width: 25px;
+    
+}
+
+#first-section{
+
+}
+
+
+.phone-image{
+    width: 55%;
+    transform: rotate(30deg);
+    position: absolute;
+    z-index: 1;  
+    margin-left: 15%;
+}
+
+
+
+/* Features */
+
+.container-features{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.mini-features-container{
+    margin: 5% 0;
+}
+
+.features-icons{
+    text-align: center;
+    color: #ef8172;
+    transition: 0.3s all;
+}
+
+.features-icons:hover{
+    text-align: center;
+    color: #ff4c68;
+    transition: 0.3s all;
+}
+
+.container-features h3{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.container-fluid p{
+    color: #8f8f8f;
+    font-weight: 400;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+    padding: 5% 0 3% 0;
+}
+
+#testimonials h2{
+    font-weight: 800;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+/* PRESS */
+
+#press{
+    background-color:#ef8172;
+    padding: 0 0 5% 0;
+}
+
+.container-press{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#press img{
+    width: 80%;
+}
+
+
+/* Princing */
+
+#pricing{
+    padding-bottom: 5%;
+}
+
+#pricing h2{
+    font-weight: 800;
+    font-size: 3em  ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing p{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.card-title{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.btn-pricing{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* CTA */
+#cta{}
+
+.cta-container{
+    width: 100%;
+    background-color: #ff4c68;
+    padding: 5% 0;
+}
+
+#cta h3{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.btn-download{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-download button{
+    margin: 5% 5%;
+}
+
+footer{
+    width: 100%;
+}
+
+.social-icons{
+    padding-bottom: 2%;
+}
+
+.social-icons i{
+    margin: 1%;
+}
+
+.copyright-section{
+    margin-bottom: 5%;
+}
+
+/*///////////////////// Portrait and Landscape/////////////// */
+/* mobile1 */
+@media only screen 
+  and (max-device-width: 820px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+     /* INTRO Section */
+     .phone-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+        margin-left: 20%;
+        padding-top: 5%;
+    }
+
+    .left-1st-section{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+  
+
+    /* FEATURES SECTION */
+
+}
+
+/* Mobile 2 */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .right-second-section{
+        width: 100%;
+    }
+
+    .phone-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+        margin-left: 20%;
+        padding-top: 5%;
+    }
+
+    .left-1st-section{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+/* IPAD */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .phone-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+        margin-left: 20%;
+        padding-top: 5%;
+    }
+
+    .left-1st-section{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
